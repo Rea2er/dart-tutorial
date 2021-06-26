@@ -93,7 +93,7 @@ void main() {
   // name = "River";
 
   // const constTime = DateTime.now(); // each time will be difference
-  // final finalTime = DateTime.now();
+  // final finalTime = DateTime.now(); // check during run-time
 
   // dynamic
   // dynamic magic = 1;
