@@ -81,11 +81,11 @@ void main() {
   print(!operand13); // !true --> false
   print(!operand14); // !false --> true
   print(true | result); // true || result --> true
-  print(true || result); // true || result --> true
+  // print(true || result); // true || result --> true
   print(false || result); // false || result --> result
   print(true && result); // true && result --> result
   print(false & result); // false && result --> false
-  print(false && result); // false && result --> false
+  // print(false && result); // false && result --> false
 
   // Bitwise and Shift Operators
   var operand15 = 2;
