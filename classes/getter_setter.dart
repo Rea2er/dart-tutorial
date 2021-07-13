@@ -11,7 +11,18 @@ class Person {
   int age = 0; // give the variable default value
 
   String? get personName => _name;
+  // String? get personName {
+  //   return _name;
+  // }
+
   set personName(String? name) => _name = name;
+  set personAge(int age) {
+    if (age > 0) {
+      this.age = age;
+    } else {
+      this.age = 0;
+    }
+  }
 
   // eating() => print('$name is eating');
   void eating() {
@@ -27,7 +38,7 @@ class Person {
 
 void main() {
   // Person firstPerson = Person(); ERROR!! do not have generative constructor
-  Person firstPerson = new Person();
+  var firstPerson = new Person();
 
   // print(firstPerson._name); ERROR!!!
   print(firstPerson.personName);

@@ -4,10 +4,10 @@ class Todo {
 
   Todo(this.todo, this.priority);
 
-  // // override the == operator
-  // bool operator ==(o) => o is Todo && todo == o.todo && priority == o.priority;
-  // // override the get hashcode method
-  // int get hashCode => todo.hashCode ^ priority.hashCode;
+  // override the == operator
+  bool operator ==(o) => o is Todo && todo == o.todo && priority == o.priority;
+  // override the get hashcode method
+  int get hashCode => todo.hashCode ^ priority.hashCode;
 }
 
 void main() {
@@ -17,4 +17,5 @@ void main() {
   print(t2.hashCode);
   print(t1 == t2); // Test for equality for two objects
   print(identical(t1, t2)); // test for identically of two objects
+  print(identical(t1, t1));
 }

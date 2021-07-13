@@ -13,10 +13,10 @@ class Person {
   // Default Constructor, Dart will write for you if you dont have any constructor
   Person() {}
 
-  // eating() => print('$name is eating');
-  void eating() {
-    print('$name is eating');
-  }
+  eating() => print('$name is eating');
+  // void eating() {
+  //   print('$name is eating');
+  // }
 
   // if you only have one line of statement inside method
   // walking(street) => print('$name is walking on $street');
@@ -28,6 +28,7 @@ class Person {
 void main() {
   // Person firstPerson = Person();
   Person firstPerson = new Person();
+  // var firstPersonCopy = Person();
 
   firstPerson.name = "Ruize";
   firstPerson.gender = "male";
@@ -49,8 +50,8 @@ void main() {
   thirdPerson.name = "Lucy";
 
   print(secondPerson.name);
-  print(secondPerson.gender);
-  print(secondPerson.age);
+  print(secondPerson.gender); // null
+  print(secondPerson.age); // 0
 
   print(thirdPerson.name);
 }
