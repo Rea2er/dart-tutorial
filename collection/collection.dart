@@ -1,7 +1,7 @@
 void main() {
   // var listName = [element1, element2, ..., elementn];
-  // var list1 = [1, 2, 3];
-  // print(list1);
+  var list1 = [1, 2, 3];
+  print(list1);
 
   // Deprecated
   // var listNmae = List();
@@ -15,8 +15,8 @@ void main() {
   // print(list3);
 
   // // Empty list
-  // var emptyList = <int>[];
-  // print(emptyList);
+  var emptyList = <int>[];
+  print(emptyList);
 
   // Index from 0
   var listOfFruits = ['apple', 'banana', 'peach'];

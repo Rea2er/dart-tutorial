@@ -1,6 +1,6 @@
 void main() {
   // if (condition) { statement };
-  var isHungry = true;
+  var isHungry = false;
   if (isHungry) {
     print('Going to eat');
   }
@@ -16,7 +16,7 @@ void main() {
   // if (condition) { statement }
   // else if (condition) { statement }
   // else { statement };
-  var time = "morning";
+  var time = "evening";
   if (time == "morning") {
     print('Good Morning');
   } else if (time == "afternoon") {
@@ -51,12 +51,15 @@ void main() {
 
   // For Loop
   // for (iterator) { statement };
+  print("------");
   for (var i = 0; i < 5; i++) {
     print(i);
   }
 
   // With index
+  print("------");
   var numList = [1, 2, 3, 4];
+  // 0 1 2 3
   for (var i = 0; i < numList.length; i++) {
     print(numList[i]);
   }
@@ -64,6 +67,7 @@ void main() {
   // For-in Loop
   // for (iterator in collection) { statement };
   // Without index
+  print("------");
   for (var i in numList) {
     print(i);
   }
@@ -71,6 +75,7 @@ void main() {
   // Conditions with Loops
   var intList = [6, 7, 3, 9, 2, 5, 4];
 
+  print("------");
   for (var i in intList) {
     if (i % 2 == 0) {
       print(i);
@@ -87,6 +92,7 @@ void main() {
 
   // Do-while, execute at least once
   // do { statement } while (condition)
+  print("------");
   var open = true;
   do {
     print("Door status: $open");
@@ -94,6 +100,7 @@ void main() {
   } while (open);
 
   // Break, Continue
+  print("------");
   for (var i = 0; i < 5; i++) {
     if (i == 2) {
       break; // break out the outer loop
@@ -101,6 +108,7 @@ void main() {
     print(i);
   }
 
+  print("------");
   for (var i = 0; i < 5; i++) {
     if (i == 2) {
       continue; // skip
@@ -109,7 +117,7 @@ void main() {
   }
 
   // Switch, Case
-  var day = '0';
+  var day = '10';
 
   switch (day) {
     case '0':
