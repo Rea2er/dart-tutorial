@@ -52,9 +52,9 @@ void main() {
 
   Person firstPersonCopy = new Person(null, null, 26);
 
-  // print(firstPersonCopy.name);
-  // print(firstPersonCopy.gender);
-  // print(firstPersonCopy.age);
+  print(firstPersonCopy.name);
+  print(firstPersonCopy.gender);
+  print(firstPersonCopy.age);
 
   // Creating an object of the Person class
   var secondPerson = Person.onlyName("Sara");
@@ -63,9 +63,9 @@ void main() {
   var thirdPerson = Person.isAdult();
   thirdPerson.name = "Lucy";
 
-  // print(secondPerson.name);
-  // print(secondPerson.gender);
-  // print(secondPerson.age);
+  print(secondPerson.name);
+  print(secondPerson.gender);
+  print(secondPerson.age);
 
   print(thirdPerson.name);
   print(thirdPerson.gender);

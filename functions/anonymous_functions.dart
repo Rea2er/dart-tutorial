@@ -7,6 +7,8 @@ void main() {
   list.forEach((item) {
     print(item * 2);
   });
+  print('------');
+  list.forEach(print);
 
   // syntax sugar
   // only one line of function body

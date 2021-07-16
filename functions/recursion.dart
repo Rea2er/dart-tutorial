@@ -9,7 +9,7 @@ int factorial(int x) {
     return x * factorial(x - 1);
   }
 }
-// factorial(3) -> factorial(2) -> factorial(1)
+// factorial(3) -> 3 * factorial(2) -> 2 * factorial(1)
 // 3 <- 2 <- 1
 
 void main() {

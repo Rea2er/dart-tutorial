@@ -1,6 +1,6 @@
 // Syntax for basic function
 // returnType functionName (DataType parameter) {
-//     function body
+//     function body;
 // }
 void firstFunction() {
   // function body
@@ -16,4 +16,5 @@ secondFunction() {
 void main() {
   // invoke by using Function name
   firstFunction();
+  print(secondFunction());
 }

@@ -23,11 +23,11 @@ void main() {
   // The outer function returns inner
   var f = calculate(2);
   // Now we call closure
-  f();
-  f();
+  f(); // 3
+  f(); // 4
 
   f = calculate(1);
   // Now we call closure
-  f();
-  f();
+  f(); // 2
+  f(); // 3
 }
